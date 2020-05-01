@@ -5,8 +5,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './Components/Navbar';
 import Jumbotron from './Components/Jumbotron';
 import Menu from './Components/Menu';
+import Cart from './Components/Cart';
 
-import {  Switch, BrowserRouter as Router } from 'react-router-dom';
+import {  Route, Switch, BrowserRouter as Router } from 'react-router-dom';
 
 const App = () => {
   return(
@@ -16,7 +17,7 @@ const App = () => {
       <Menu />
 
       <Switch>
-
+        <Route path='/cart' exact component={Cart} />
       </Switch>
     </Router>
   )

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router';
 
 export default class Menu extends Component {
     render() {
@@ -28,7 +29,7 @@ export default class Menu extends Component {
                         $14.40
                         <span>$16.00</span>
                     </div>
-                    <a className="add-to-cart" href="/">ADD TO CART</a>
+                    <a className="add-to-cart" href="/cart">ADD TO CART</a>
                 </div>
             </div>
         </div>
@@ -51,7 +52,7 @@ export default class Menu extends Component {
                         $17.60
                         <span>$20.00</span>
                     </div>
-                    <a className="add-to-cart" href="/">ADD TO CART</a>
+                    <Link to="/cart" className="add-to-cart" >ADD TO CART</Link>
                 </div>
             </div>
         </div>
