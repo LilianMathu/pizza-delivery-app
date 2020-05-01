@@ -3,9 +3,10 @@ import React, { Component } from 'react'
 export default class Menu extends Component {
     render() {
         return (
-            <div>
+            <section>
             <div className="container">
-              <h3 className="h3">Pizza Menu </h3>
+              <h1 className="h3">Pizza Menu </h1>
+              <br />
     <div className="row">
         <div className="col-md-3 col-sm-6">
             <div className="menu-grid">
@@ -200,7 +201,7 @@ export default class Menu extends Component {
 </div>
 <hr />
 <hr />
-</div>
+</section>
         )
     }
 }
