@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 
 export default class Menu extends Component {
     render() {
@@ -29,7 +29,7 @@ export default class Menu extends Component {
                         $14.40
                         <span>$16.00</span>
                     </div>
-                    <a className="add-to-cart" href="/cart">ADD TO CART</a>
+                    <Link className="add-to-cart" href="/cart">ADD TO CART</Link>
                 </div>
             </div>
         </div>

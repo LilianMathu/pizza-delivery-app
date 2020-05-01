@@ -15,9 +15,10 @@ const App = () => {
       <Navbar />
       <Jumbotron />
       <Menu />
+        
+      <Route path='/cart' exact component={Cart} />
 
       <Switch>
-        <Route path='/cart' exact component={Cart} />
       </Switch>
     </Router>
   )
