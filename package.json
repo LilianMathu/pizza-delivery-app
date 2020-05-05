@@ -2,6 +2,8 @@
   "name": "pizza-delivery",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://lilianmathu.github.io/pizza-delivery-app",
+
   "dependencies": {
     "@testing-library/jest-dom": "4.2.4",
     "@testing-library/react": "9.5.0",
@@ -54,6 +56,5 @@
     "nodemon": "2.0.3",
     "npm-run-all": "4.1.5"
   },
-  "proxy": "http://localhost:3001",
-  "homepage": "http://lilianmathu.github.io/pizza-delivery-app"
+  "proxy": "http://localhost:3001"
 }
