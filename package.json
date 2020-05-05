@@ -2,7 +2,6 @@
   "name": "pizza-delivery",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lilianmathu.github.io/pizza-delivery-app",
 
   "dependencies": {
     "@testing-library/jest-dom": "4.2.4",
@@ -25,13 +24,10 @@
     "client": "npm start",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "client-install": "npm install --prefix client",
-    "heroku-postbuild": "npm run build"
+    "client-install": "npm install --prefix client"
   },
   "eslintConfig": {
     "extends": "react-app"
